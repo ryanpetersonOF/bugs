@@ -31,6 +31,7 @@ const Portal: React.FC<Props> = (props) => {
             portalWindow.current.on('close-requested', onWindowClose);
         }
     }
+    console.log(1444423);
 
     React.useEffect(() => {
         (async () => {
