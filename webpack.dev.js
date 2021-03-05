@@ -8,8 +8,7 @@ module.exports = merge(common, {
     devServer: {
         port: 3000,
         contentBase: path.join(__dirname, 'public'),
-        hot: false,
-        inline: false
+        hot: true
     },
     devtool: 'eval-source-map'
 });
